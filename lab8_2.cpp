@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 
-// แก้ไขเกณฑ์คะแนนตามรูป Expected Output
+
 char findGrade(float score) {
     if (score > 90) return 'A';
     else if (score > 75) return 'B';
